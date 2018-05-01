@@ -1,3 +1,5 @@
+REM Author - ArunSanthoshKumar. 
+
 ECHO ON 
 
 for /f "tokens=2-4 delims=.:/-, " %%u in ('date /t') do (
