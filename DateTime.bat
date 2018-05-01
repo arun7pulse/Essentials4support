@@ -1,6 +1,6 @@
 REM Author - ArunSanthoshKumar. 
 
-ECHO ON 
+@ECHO ON 
 
 for /f "tokens=2-4 delims=.:/-, " %%u in ('date /t') do (
   for /f "skip=1 tokens=2-4 delims=/-,()." %%x in ('echo.^|date') do (
