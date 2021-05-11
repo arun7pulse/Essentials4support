@@ -1,13 +1,10 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue May 22 16:36:13 2018
 
 @author: ArunSK
 """
-
 import tweepy
 import datetime
-
 
 consumer_key = '******'
 consumer_secret = '*****' 
